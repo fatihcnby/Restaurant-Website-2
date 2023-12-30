@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm" id="navbar">
+    <nav class="navbar navbar-expand-sm bg-danger" id="navbar">
       <a class="navbar-brand" href="#" id="logo"
         ><img src="./images/logo.png" class="mt-3"
       /></a>
@@ -43,25 +43,27 @@
               class="nav-link text-black fs-6 fw-bolder"
               aria-current="page"
               href="#"
-              >Home</a
+              >Anasayfa</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black fs-6 fw-bolder" href="#menu">Menu</a>
+            <a class="nav-link text-black fs-6 fw-bolder" href="#menu"
+              >Menümüz</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link text-black fs-6 fw-bolder" href="#order"
-              >Order</a
+              >Sipariş</a
             >
           </li>
           <li class="nav-item">
             <a class="nav-link text-black fs-6 fw-bolder" href="#review"
-              >Reviews</a
+              >Yorumlar</a
             >
           </li>
           <li class="nav-item">
             <a class="nav-link text-black fs-6 fw-bolder" href="#contact">
-              Contact
+              İletişim
             </a>
           </li>
         </ul>
@@ -69,11 +71,15 @@
           <input
             class="form-control-sm me-2 rounded-5"
             type="search"
-            placeholder="Search"
+            placeholder="Ara!"
             aria-label="Search"
           />
-          <button class="btn btn-danger p-2" id="btn" type="submit">
-            Search
+          <button
+            class="btn btn-danger p-2 btn-outline-light"
+            id="btn"
+            type="submit"
+          >
+            Arama
           </button>
         </form>
       </div>
@@ -86,16 +92,16 @@
     >
       <div class="home-content">
         <h3>
-          Claim Best Offer <br />
-          On Fast <span class="text-danger">Food</span> &
-          <span class="text-danger">Restaurant</span>
+          <span class="text-danger">En Lezzetli Seçenekler</span> <br />
+          En Uygun Fiyatlarla Sizler İçin
+          <span class="text-danger">Fresh Food'da</span>
         </h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
           quibusdam minus. Ea accusamus rem numquam.
         </p>
         <a href="#our-menu" class="text-decoration-none btn btn-danger"
-          >Our Menu</a
+          >Menümüz</a
         >
       </div>
       <div class="img">
@@ -105,7 +111,7 @@
 
     <!-- top-section -->
     <div class="top-section">
-      <h5 class="text-center">WHAT WE SERVE</h5>
+      <h5 class="text-center">SUNDUĞUMUZ HİZMETLER</h5>
       <h3 class="text-center fw-bolder">
         Your Favourite Food Delivery Partner
       </h3>
@@ -114,8 +120,8 @@
           <div class="card border-0">
             <img src="./images/img1.png" class="m-auto" alt="..." />
             <div class="card-body text-center">
-              <h1 class="fs-4 fw-bolder">Easy To Order</h1>
-              <p>You only need a few steps in ordering food</p>
+              <h1 class="fs-4 fw-bolder text-danger">Hızlı ve Kolay Sipariş</h1>
+              <p>Yemek siparişlerinizi birkaç adımda verebilirsiniz</p>
             </div>
           </div>
         </div>
@@ -123,8 +129,11 @@
           <div class="card border-0">
             <img src="./images/img2.png" class="m-auto" alt="..." />
             <div class="card-body text-center">
-              <h1 class="fs-4 fw-bolder">Fastest Delivery</h1>
-              <p>You only need a few steps in ordering food</p>
+              <h1 class="fs-4 fw-bolder text-danger">Hızlı Teslimat</h1>
+              <p>
+                Yemek siparişlerinizi adresinize hızlı ve sorunsuz şekilde
+                teslim ediyoruz
+              </p>
             </div>
           </div>
         </div>
@@ -132,8 +141,10 @@
           <div class="card border-0">
             <img src="./images/img3.png" class="m-auto" alt="..." />
             <div class="card-body text-center">
-              <h1 class="fs-4 fw-bolder">Best Quality</h1>
-              <p>You only need a few steps in ordering food</p>
+              <h1 class="fs-4 fw-bolder text-danger">Yüksek Kalite</h1>
+              <p>
+                Menümüz sizler için en kaliteli malzemeler ile hazırlanmaktadır.
+              </p>
             </div>
           </div>
         </div>
@@ -142,9 +153,9 @@
 
     <!-- our menu -->
     <section class="menu" id="menu">
-      <h3 class="text-center text-danger">Menu</h3>
+      <h3 class="text-center text-danger">Menümüz</h3>
       <h2 class="text-center fw-bolder">
-        Delicious Dishes Is Here
+        Lezzetli Yiyecek Çeşitleri Burada
         <i class="bi bi-arrow-down text-danger fw-bolder"></i>
       </h2>
 
@@ -316,7 +327,7 @@
 
     <!-- our menu -->
     <section class="menu" id="menu">
-      <h3>Our Menu</h3>
+      <h3>Özel Çeşitler</h3>
       <div class="row">
         <div class="col-md-3">
           <div class="card h-100">
@@ -400,7 +411,7 @@
     <!-- order-section -->
     <section class="order" id="order">
       <div class="text-center fs-2 fw-bolder mb-4">
-        Ordre Your <span class="text-danger">Food</span>
+        <span class="text-danger">Yemek</span> Siparişinizi Hemen Verin
       </div>
 
       <div class="row">
@@ -415,7 +426,7 @@
               <input
                 type="text"
                 class="form-control"
-                placeholder="Name"
+                placeholder="İsim-Soyisim"
                 required
               />
             </div>
@@ -431,7 +442,7 @@
               <input
                 type="text"
                 class="form-control"
-                placeholder="Number"
+                placeholder="Telefon Numaranız"
                 required
               />
             </div>
@@ -439,10 +450,12 @@
               rows="5"
               class="form-control"
               id="comment"
-              placeholder="Address"
+              placeholder="Tam Adresiniz"
             ></textarea>
 
-            <button class="btn btn-danger mt-3" type="submit">Order Now</button>
+            <button class="btn btn-danger mt-3" type="submit">
+              Sipariş Ver
+            </button>
           </form>
         </div>
       </div>
@@ -458,8 +471,8 @@
         </div>
 
         <div class="col-md-8 mt-md-0 mt-5 px-5">
-          <h3 class="text-danger">WHAT THEY SAY</h3>
-          <h2 class="fw-bolder">What Our Customers Say About Us</h2>
+          <h3 class="text-danger">NE SÖYLEDİLER?</h3>
+          <h2 class="fw-bolder">Müşterilerimiz Hakkımızda Ne Söyledi?</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
             commodi maiores qui quasi tenetur doloremque!
@@ -492,17 +505,17 @@
     <!-- contact-section -->
     <section class="contact" id="contact">
       <div class="fs-1 text-center fw-bolder">
-        Contact <span class="text-danger">us</span>
+        <span class="text-danger">Bize</span> Ulaşın
       </div>
       <div class="row">
         <div class="col-md-5 mt-3 bg-danger text-white p-3 rounded-3 pb-5">
-          <h3 class="mt-2">Let's Get In Touch</h3>
+          <h3 class="mt-2">İletişim Bilgilerimiz</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
             nobis, modi alias suscipit molestiae amet!
           </p>
           <i class="bi bi-telephone-fill"
-            ><span class="m-3">9200000000000</span></i
+            ><span class="m-3">0 312 000 00 00</span></i
           >
           <br />
           <i class="bi bi-envelope"><span class="m-3">info@mail.com</span></i>
@@ -512,32 +525,44 @@
         <div class="col-md-7">
           <form class="mt-3">
             <div class="mb-3 mt-3">
-              <input type="text" class="form-control" placeholder="Name" />
+              <input
+                type="text"
+                class="form-control"
+                placeholder="İsim-Soyisim"
+              />
             </div>
             <div class="mb-3 mt-3">
-              <input type="email" class="form-control" placeholder="Email" />
+              <input
+                type="email"
+                class="form-control"
+                placeholder="E-mail Adresiniz"
+              />
             </div>
             <div class="mb-3 mt-3">
-              <input type="tel" class="form-control" placeholder="Tel" />
+              <input
+                type="tel"
+                class="form-control"
+                placeholder="Telefon Numaranız"
+              />
             </div>
 
             <textarea
               rows="5"
               class="form-control"
               id="comment"
-              placeholder="Address"
+              placeholder="Adres Bilgileriniz"
             ></textarea>
-            <button class="btn btn-danger mt-3">Order Now</button>
+            <button class="btn btn-danger mt-3">Gönder</button>
           </form>
         </div>
       </div>
     </section>
 
     <!-- footer -->
-    <footer id="footer">
+    <footer id="footer ">
       <div class="f-content text-center">
         <div class="logo"><img src="./images/logo.png" /></div>
-        <p>
+        <p class="mt-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
           dignissimos?
         </p>
@@ -548,7 +573,7 @@
         <div class="content mt-3">
           &copy;
           <span class="fs-6"
-            >Copyright SA Coding. All Rights Reserved Designed By
+            >Copyright FC Coding. All Rights Reserved Designed By
             <a href="" class="text-danger">FC Coding</a></span
           >
         </div>
